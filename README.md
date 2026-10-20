@@ -28,7 +28,7 @@ The circuit reproduces the architecture of Zhang *et al.*, *"A 640 nA I<sub>Q</s
 *Cadence schematic (before the SRE bias fix, BIAS2 = 300 mV).*
 
 ```mermaid
-flowchart LR
+flowchart TB
     REF["V_REF = 1 V"] --> EA
     subgraph EA["Error amplifier (sub-threshold)"]
         direction TB
